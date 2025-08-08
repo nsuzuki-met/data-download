@@ -30,7 +30,7 @@ while sdate <= edate:
     month    = sdate.strftime( '%m' )
     day      = sdate.strftime( '%d' )
 
-    out_path = '/work10/Share/Reanalysis_data/ERA5/ERA5-SEA/' + sdate.strftime( '%Y%m' )
+    out_path = './ERA5/' + sdate.strftime( '%Y%m' )
     os.makedirs( out_path, exist_ok = True )
 
     pl_data  = out_path + '/e5.pl.' + sdate.strftime( '%Y%m%d' ) + '.grb'
