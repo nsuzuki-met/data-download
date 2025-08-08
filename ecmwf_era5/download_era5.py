@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 '''
-  GetERA5.py
-    2024.03.05  Nobuyasu Suzuki
+  download_era5.py
+    2025.08.08  Nobuyasu Suzuki
 '''
 #######################################
 import os, datetime , cdsapi
